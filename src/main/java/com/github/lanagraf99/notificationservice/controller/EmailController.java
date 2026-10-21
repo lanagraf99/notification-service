@@ -1,7 +1,7 @@
 package com.github.lanagraf99.notificationservice.controller;
 
 import com.github.lanagraf99.notificationservice.dto.EmailRequest;
-import com.github.lanagraf99.notificationservice.servise.EmailService;
+import com.github.lanagraf99.notificationservice.service.EmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

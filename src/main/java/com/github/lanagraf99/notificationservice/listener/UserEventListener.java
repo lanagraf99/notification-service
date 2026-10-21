@@ -1,7 +1,7 @@
 package com.github.lanagraf99.notificationservice.listener;
 
 import com.github.lanagraf99.notificationservice.dto.UserEvent;
-import com.github.lanagraf99.notificationservice.servise.EmailService;
+import com.github.lanagraf99.notificationservice.service.EmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
