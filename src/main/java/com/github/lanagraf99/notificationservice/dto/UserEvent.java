@@ -2,11 +2,11 @@ package com.github.lanagraf99.notificationservice.dto;
 
 public class UserEvent {
     private String email;
-    private String operation;
+    private Operation operation;
 
     public UserEvent() {}
 
-    public UserEvent(String email, String operation) {
+    public UserEvent(String email, Operation operation) {
         this.email = email;
         this.operation = operation;
     }
@@ -18,10 +18,10 @@ public class UserEvent {
         this.email = email;
     }
 
-    public String getOperation() {
+    public Operation getOperation() {
         return operation;
     }
-    public void setOperation(String operation) {
+    public void setOperation(Operation operation) {
         this.operation = operation;
     }
 }
